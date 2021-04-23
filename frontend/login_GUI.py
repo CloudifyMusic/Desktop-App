@@ -1,5 +1,7 @@
 from tkinter import *
 
+from backend.user import User
+
 root = Tk()
 
 root.title("Cloudify Music")
