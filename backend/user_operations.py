@@ -59,4 +59,4 @@ class Operations(User):
             return "Your password is incorrect."
 
     def delete_account(self):
-        self.user_data.pop[self.username] = None
+        self.user_data[self.username] = None
